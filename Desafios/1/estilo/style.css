@@ -1,0 +1,178 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Android";
+    src: url("../fontes/idroid.otf") format("opentype"); /* OS DOIS PONTOS ".." INDICA PARA O SISTEMA QUE ELE DEVE VOLTAR UMA PASTA NO ARQUIVO E ACESSAR AS SEGUINTES INSTRUÇÕES*/
+}
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fontes/BebasNeue-Regular.ttf') format('truetype');
+}
+/* PALETA DE COR UTILIZADA : #275C35, #A4E1B5, #5EDB7F, #435C4A,#48A862*/
+
+/*Declaração de Variaveis*/
+:root{
+   /*SEMPRE QUE FOR DECLARAR UMA VARIÁVEL, UTILIZAR OS '--'*/
+    --cor0: #ffffff;
+    --cor1: #275C35;
+    --cor2: #A4E1B5;
+    --cor3: #5EDB7F;
+    --cor4: #435C4A; 
+    --cor5: #48A862;
+
+    --font-padrao: Arial, Helvetica, sans-serif; 
+    --font-android: 'Android', cursive;
+    --font-destaque: 'Bebas', cursive;
+}
+
+/*Declaração Global(PARA FACILITAR A ORGANIZAÇÃO DO SITE)*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*CONFIGURAÇAO DE OUTROS ELEMENTOS DO SITE*/
+
+header{
+    background-image: linear-gradient(to bottom,var(--cor3), var(--cor1)); /* A CONF. DE DIREÇÃO FUNCIONA ASSIM: ELE PEGA A PRIMEIRA COR E COLOCA A SEGUNDA NA DIREÇÃO SOLICITADA*/
+    color: var(--cor0);
+    text-align: center;
+    padding-top: 40px;
+    min-height: 150px;
+    box-shadow: 3px 3px 11px rgba(0, 0, 0, 0.377);
+    font-family: var(--font-destaque);
+}
+header > h1{
+    font-size: 3em;
+    margin: auto; /* MARGIN AUTO CENTRALIZA A CAIXA NO MEIO DO SITE*/
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.623);
+}
+header > p{
+    font-size: 1.2em;
+    margin: auto;/* MARGIN AUTO CENTRALIZA A CAIXA NO MEIO DO SITE*/
+    max-width: 300px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.671);
+}
+nav{
+    background-color: var(--cor1);
+    box-shadow: 3px 3px 11px rgba(0, 0, 0, 0.377);
+    padding: 10px;
+}
+nav > a{
+    text-decoration: none;
+    color: var(--cor0);
+    padding: 10px;
+    font-size: bold;
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: var(--cor1);
+    background-color: var(--cor3);
+    transition-duration: 0.5s; /*Duração de transição quando passar o mouse em cima (CONTEUDO EXTRA DA AULA)*/
+}
+body{
+    background-color: var(--cor0) ;
+}
+main{
+    background-color: var(--cor0);
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
+    max-width: 1000px; /*DEFINE O TAMANHO MAXIMO QUE A BOX VAI TER*/
+    min-width: 300px; /*O TAMANHO MINIMO QUE ELA VAI TER PARA COMEÇAR A QUEBRAR*/
+    margin: auto;/* MARGIN AUTO CENTRALIZA A CAIXA NO MEIO DO SITE*/
+    margin-bottom: 10px;
+    padding: 15px;
+
+}
+a.externo::after{
+    content: '\00A0\2693';
+}
+main img{
+    width: 100%; /*QUANDO A IMAGEM FOR SE AJUSTAR ELA VAI OCUPAR 100% DA BOX E VAI MANTER SEU TAMANHO ORIGINAL COMO RESPONSIVIDADE*/
+}
+main img.img-pq{
+    width: 350px;
+    display: block; /*PQ uma imagem nao é box level, essa configuração o torna assim*/
+    margin: auto;/* MARGIN AUTO CENTRALIZA A CAIXA NO MEIO DO SITE*/
+}
+main h1{ /* SEM O SINAL DE ">" SIGNIFICA QUE QUALQUER H1 DENTRO DO MAIN VAI SOFRER ALTERAÇAO E COM '>' PODE HAVER DIVERSOS NIVEIS*/
+    font-family: var(--font-android);
+    color: var(--cor1);
+}
+main h2{
+    font-family: var(--font-android);
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    font-size: 1.3em;
+    text-indent: 5px;
+    color: var(--cor1);
+}
+main p{
+    text-align: justify;
+    text-indent: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 1.8em; /*config. altura entre as linhas do texto*/
+    font-size: 1.1em;
+
+}
+main strong{
+    color: var(--cor4);
+    font-weight: bold;
+}
+main a{
+    color: var(--cor4);
+    text-decoration: none;
+    padding: 3px 6px;
+    background-color: var(--cor3);
+    border-radius: 3px;
+}
+main a:hover{
+    color: var(--cor5);
+    text-decoration: underline;
+}
+main a::after{
+    contain: "🔗";
+}
+div.video{
+    background-color: var(--cor1);
+    margin: 0px -15px 20px -15px;
+    padding: 20px;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%; /*distantica entre margem do video ate a borda da div*/
+    left: 5%;/*distantica entre margem do video ate a borda da div*/
+    width: 90%;
+    height: 90%;
+
+}
+
+aside{
+    background-color: var(--cor2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
+    border-radius: 7px;
+    padding: 20px;
+    
+}
+aside > h3{
+    background-color: var(--cor1);
+    padding: 5px; 
+    border-radius: 5px 5px 0px 0px;
+    margin: -20px -20px 0px -20px;/*Para deixar uma borda grudada na outra*/
+    
+}
+aside > ul{
+    columns: 2; /*quantidade de colunas desejada*/
+    list-style-position: inside; /*Normalmente as bolas da coluna ficam para fora da box, com esse comando voce coloca para dentro*/
+    list-style: '\2714\00A0';/*Barra antes da numeração do emoji e '00A0' é o comando de dar espaço*/
+}
+footer{
+    background-color: var(--cor4);
+    box-shadow: 3px 3px 11px rgba(0, 0, 0, 0.377);
+    text-align: center;
+    color: var(--cor0);
+    padding: 5px;
+}
