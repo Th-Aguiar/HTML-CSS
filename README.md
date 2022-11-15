@@ -5,4 +5,4 @@
     Obrigado pela Visita. <br>
 <a href="https://aguiarziin.github.io/HTML-CSS/Projetos/projeto-1/index.html" target="_blank" >Meu 1° Projeto - 04/11/2022 - Clique aqui para ver</a>
 
-<a href="https://aguiarziin.github.io/HTML-CSS/Projetos/projeto-2/index.html">Meu 2° Projeto - 04/11/2022 - Clique aqui para ver</a>
+<a href="https://aguiarziin.github.io/HTML-CSS/Projetos/projeto-2/index.html">Meu 2° Projeto - 15/11/2022 - Clique aqui para ver</a>
