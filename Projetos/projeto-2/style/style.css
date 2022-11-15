@@ -80,16 +80,12 @@ section#cont2{
     padding-top: 10vh;
     padding-bottom:10vh;
 }
-div#q1{
+section.container > p{
     background-color: var(--cor-box) ;
     max-width: 250px;
     padding: 5vh 5vw 5vh 3vw;
 }
-div#q2{
-    background-color: var(--cor-box);
-    max-width: 250px;
-    padding: 5vh 5vw 5vh 3vw;
-}
+
 footer{
     text-align: center;
     font-family: var(--fonte-destaque);
