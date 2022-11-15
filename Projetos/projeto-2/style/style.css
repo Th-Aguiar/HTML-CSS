@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/*FONTES*/
+/*font-family: 'Passion One', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@font-face {
+    font-family: 'siracha' ;
+    src: url('../fonts/siracha/Sriracha-Regular.ttf') format('truetype');
+}
+:root{
+    --cor1: #ffffff;
+    --cor2: #000000;
+    
+    --fonte-destaque: 'Passion One', cursive;
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-texto: 'siracha', cursive, sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: var(--cor2);
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    color: var(--cor1);
+    margin: auto;
+    padding: 30px;
+}
+header p{
+    font-size: 15px;
+}
+body{
+    background-color: var(--cor1);
+}
+main{
+    font-family: var(--fonte-texto);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+div.conteudo{
+    max-width: 250px;
+    text-align: justify;
+    padding: 20 px;
+}
+div.container{
+    padding: 20px;
+    background: black url(../imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+    color: var;
+}
