@@ -10,6 +10,8 @@
 :root{
     --cor1: #ffffff;
     --cor2: #000000;
+    --cor-box: #0000006c;
+    --cor-link: #808080c4;
     
     --fonte-destaque: 'Passion One', cursive;
     --fonte-padrao: Arial, Helvetica, sans-serif;
@@ -27,25 +29,67 @@ header{
     margin: auto;
     padding: 30px;
 }
+header h1{
+    font-size: 4em;
+}
 header p{
     font-size: 15px;
 }
 body{
     background-color: var(--cor1);
 }
+body a{
+    text-decoration: none;
+    color: var(--cor1);
+}
+body a:hover{
+    text-decoration: underline;
+    color:var(--cor-link);
+
+}
+body a::after{
+    content: '\00A0\2197';
+}
+
 main{
     font-family: var(--fonte-texto);
     font-size: 1.2em;
     font-weight: bold;
+    line-height: 2.4em;
 }
+
 div.conteudo{
     max-width: 250px;
-    text-align: justify;
-    padding: 20 px;
+    text-align: justify;  
+    padding: 20px 0px 25px 25px;
+    margin: 20px 0px 20px 0px;;
 }
-div.container{
-    padding: 20px;
+div.container{ 
     background: black url(../imagens/background001.jpg) right center no-repeat fixed;
     background-size: cover;
-    color: var;
+    color: var(--cor1);
+    padding: 20px 0px 25px 0px;
+    margin: 20px 0px 20px 0px;;
+}
+div#cont2{
+    background: black url(../imagens/background002.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
+div#q1{
+    background-color: var(--cor-box) ;
+    padding: 35px 20px 35px 25px;
+    margin: 50px 0px 50px 0px;
+}
+div#q2{
+    background-color: var(--cor-box);
+    padding: 35px 20px 35px 25px;
+    margin: 50px 0px 50px 0px;
+}
+footer{
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    padding: 10px;
+    background-color: var(--cor2);
+    color: var(--cor1);
+    margin: auto;
 }
