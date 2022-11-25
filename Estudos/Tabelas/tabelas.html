@@ -10,6 +10,7 @@
       table {
         width: 500px;
         border-collapse: collapse; /*Para Juntar as Linhas das tabelas*/
+        position: relative;/*Criar efeito de rolagem*/
       }
       th,
       td {
@@ -18,6 +19,14 @@
         padding: 8px;
         /*vertical-align: top; alinhamento vetical*/
       }
+
+      <!-- Nem todo Navegador funciona o efeito de rolagem -->
+      
+      thead > tr > th{ /*Criar efeito de rolagem*/
+        position: sticky; /*Criar efeito de rolagem*/
+        background-color: lightgray;
+        top: -1px;
+      } 
 
       thead, tfoot{
         color: black;
