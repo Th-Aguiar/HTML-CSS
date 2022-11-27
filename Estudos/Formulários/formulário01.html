@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <main>
+      <form action="#">
+        <h1>Cadastro da Liga dos Astronautas</h1>
+        
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" /><br />
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" />
+        <label for="password">Senha: </label>
+        <input type="password" name="password" id="password" required />
+
+        <br>
+
+        <label for="date">Data de Nascimento: </label>
+        <input type="date" name="date" id="date" />
+        <label for="file">Foto: </label>
+        <input type="file" name="file" id="file" />
+       
+        <br>
+        
+        <label for="nacionalidade">Nacionalidade: </label>
+        <input list="nacionalidade" />
+        <datalist>
+          <option value="Russo">Russo</option>
+          <option value="Brasileiro">Brasileiro</option>
+          <option value="Inglês">Inglês</option>
+          <option value="Americano">Americano</option>
+        </datalist>
+        
+        <label for="gender">Genero: </label>
+        <input type="radio" name="gender" id="gender" value="Masculino">M</input>
+        <input type="radio" name="gender" id="gender" value="Feminino">F</input>
+   
+        <br>
+        
+        <label for="qualidades">Suas principais Qualidades</label>
+        <input type="checkbox" name="qualidades" id="qualidades" value="Inteligência">Inteligência / </input>
+        <input type="checkbox" name="qualidades" id="qualidades" value="Resiliência"> Resiliência / </input>
+        <input type="checkbox" name="qualidades" id="qualidades" value="Preparo Físico">Preparo Físico / </input>
+        <input type="checkbox" name="qualidades" id="qualidades" value="Educação"> Educação</input>
+        
+        <br>
+        <hr>
+        <input type="submit" name="submit" id="submit" value="Enviar Formulário">
+      </form>
+    </main>
+  </body>
+</html>
