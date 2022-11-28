@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <title>SpaceX - Hire Us</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <a href="../index.html"
+          ><img src="../image/logo.png" alt="SpaceX.jpg"
+        /></a>
+      </header>
+      <hr />
+      <nav>
+        <a href="../pages/spaceships.html">The SpaceShips / </a>
+        <a href="./hire-us.html">Hire US</a>
+      </nav>
+      <hr />
+      <section id="form">
+        <h1><strong>Hire Us NOW</strong></h1>
+
+        <p>
+          Leave a message to request one of our services and we will get back to
+          you as soon as possible
+        </p>
+
+        <form action="">
+          <label for="name">Name: </label>
+          <input type="text" name="name" id="name" />
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" />
+          <br />
+
+          <label for="spaceship">SpaceShips: </label>
+          <select name="spaceship" id="spaceship">
+            <option value="Falcon 9">Falcon 9</option>
+            <option value="Falcon Heavy">Falcon Heavy</option>
+          </select>
+
+          <label for="service">/ Type of Service</label>
+          <input type="search" list="service" />
+          <datalist id="service">
+            <option value="Exploration">
+              to explore the space with our spaceflight
+            </option>
+            <option value="Travel">To Travel into a long distance</option>
+            <option value="Vacation">to Spend a little time in Vacation</option>
+            <option value="Research">For Cientific Research</option>
+          </datalist>
+          <br />
+          <hr />
+          <input type="submit" name="submit" id="submit" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
