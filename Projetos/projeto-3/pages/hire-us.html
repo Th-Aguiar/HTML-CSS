@@ -29,31 +29,40 @@
         </p>
 
         <form action="">
-          <label for="name">Name: </label>
-          <input type="text" name="name" id="name" />
-          <label for="email">Email: </label>
-          <input type="email" name="email" id="email" />
+          <div>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" />
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" />
+          </div>
+
           <br />
 
-          <label for="spaceship">SpaceShips: </label>
-          <select name="spaceship" id="spaceship">
-            <option value="Falcon 9">Falcon 9</option>
-            <option value="Falcon Heavy">Falcon Heavy</option>
-          </select>
+          <div>
+            <label for="spaceship">SpaceShips: </label>
+            <select name="spaceship" id="spaceship">
+              <option value="Falcon 9">Falcon 9</option>
+              <option value="Falcon Heavy">Falcon Heavy</option>
+            </select>
+            <label for="service">/ Type of Service</label>
+            <input type="search" list="service" />
+            <datalist id="service">
+              <option value="Exploration">
+                to explore the space with our spaceflight
+              </option>
+              <option value="Travel">To Travel into a long distance</option>
+              <option value="Vacation">
+                to Spend a little time in Vacation
+              </option>
+              <option value="Research">For Cientific Research</option>
+            </datalist>
+          </div>
 
-          <label for="service">/ Type of Service</label>
-          <input type="search" list="service" />
-          <datalist id="service">
-            <option value="Exploration">
-              to explore the space with our spaceflight
-            </option>
-            <option value="Travel">To Travel into a long distance</option>
-            <option value="Vacation">to Spend a little time in Vacation</option>
-            <option value="Research">For Cientific Research</option>
-          </datalist>
           <br />
-          <hr />
-          <input type="submit" name="submit" id="submit" />
+
+          <div>
+            <input type="submit" name="submit" id="submit" />
+          </div>
         </form>
       </section>
     </main>
