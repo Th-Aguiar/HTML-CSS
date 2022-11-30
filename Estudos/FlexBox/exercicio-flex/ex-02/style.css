@@ -35,7 +35,22 @@ footer {
   padding: 25px;
   border: 2px solid black;
 }
+
+@media (max-width: 1024px) {
+  .item-content {
+    gap: 10px 25px;
+  }
+  .item {
+    flex-basis: 300px;
+    height: 250px;
+  }
+}
+
 @media (max-width: 768px) {
+  .item-content {
+    gap: 0px 25px;
+  }
+
   .item {
     flex-basis: 200px;
     height: 200px;
