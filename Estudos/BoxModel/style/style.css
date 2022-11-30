@@ -1,0 +1,34 @@
+@charset 'UTF-8';
+/*Montserrat: font-family: 'Montserrat', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
+main {
+  margin: auto;
+  max-width: 75vh; /*DEFINE O TAMANHO MAXIMO QUE A BOX VAI TER*/
+  min-width: 50vh; /*DEFINE O TAMANHO MAXIMO QUE A BOX VAI TER*/
+  text-align: justify;
+}
+main h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+}
+main p {
+  font-family: "Open Sans", sans-serif;
+}
+.date {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  color: #008080;
+}
+hr {
+  margin: 0px;
+}
+section {
+  background-color: #fffafa;
+  padding: 50px;
+  margin: 0px;
+}
