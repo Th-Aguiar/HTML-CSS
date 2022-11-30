@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between; /*espaçamento entre os itens*/
+  align-items: center; /*alinhar horizontalmente e verticalmente*/
+  padding: 10px 25px;
+}
+
+#icon {
+  width: 40px;
+}
+#logo {
+  width: 200px;
+}
+.buttons {
+  display: flex;
+  gap: 13px;
+}
+.buttomHeader {
+  color: white;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 15px;
+  font-size: 18px;
+  cursor: pointer; /*quando passar o mouse em cima irá se tornar um ponteiro*/
+  gap: 0px 15px;
+  transition: 1.3s; /*para dar um efeito de transição*/
+}
+.buttomHeader:hover {
+  color: red;
+  border-color: red;
+}
+.buttomHeader:active {
+  background-color: rgba(247, 54, 54, 0.493);
+  transition: none;
+}
