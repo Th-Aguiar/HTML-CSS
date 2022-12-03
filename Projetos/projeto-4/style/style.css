@@ -64,8 +64,8 @@
 }
 
 .content-image {
-  width: 100%;
-  height: 40vh;
+  width: 40vh;
+  height: 30vh;
   border-radius: 25px;
 }
 
@@ -118,10 +118,29 @@
 }
 
 .content {
-  background-color: lightgray;
-  border: 2px solid black;
   text-align: center;
 }
+
+aside {
+  background-color: #2b2323;
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+
+.main-aside .aside {
+  padding: 10px;
+}
+
+.header-aside {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
 .footer {
   display: flex;
   background-color: #141414;
