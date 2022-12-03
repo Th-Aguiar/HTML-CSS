@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-heigth: 100vh;
+}
+.header {
+  display: flex;
+  background-color: #141414;
+  width: 100%;
+  color: white;
+  padding: 15px;
+  justify-content: space-between;
+}
+.header-logo {
+  width: 200px;
+  padding: 10px;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.header-buttons .buttons {
+  cursor: pointer;
+  font-size: 20px;
+}
+.header-buttons .buttons:hover {
+  text-decoration: underline;
+  color: red;
+  transition: 0.8s;
+}
+
+.main-content {
+  flex: 1 0 auto;
+  min-height: 100vh;
+  padding: 10px;
+  display: grid;
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "item1 item2 item3 aside"
+    "item1 item2 item3 aside"
+    "item4 item5 item6 aside"
+    "item4 item5 item6 aside"
+    "item7 item8 item9 aside"
+    "item7 item8 item9 aside";
+  gap: 20px;
+}
+.introduction {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.content-image {
+  width: 100%;
+  height: 40vh;
+  border-radius: 25px;
+}
+
+.item0 {
+  grid-area: item0;
+  text-align: center;
+  padding: 5px;
+  height: 80px;
+}
+
+.item1 {
+  grid-area: item1;
+  min-width: 250px;
+}
+.item2 {
+  grid-area: item2;
+  min-width: 250px;
+}
+.item3 {
+  grid-area: item3;
+  min-width: 250px;
+}
+.item4 {
+  grid-area: item4;
+  min-width: 250px;
+}
+.item5 {
+  grid-area: item5;
+  min-width: 250px;
+}
+.item6 {
+  grid-area: item6;
+  min-width: 250px;
+}
+.item7 {
+  grid-area: item7;
+  min-width: 250px;
+}
+.item8 {
+  grid-area: item8;
+  min-width: 250px;
+}
+.item9 {
+  grid-area: item9;
+  min-width: 250px;
+}
+.aside {
+  grid-area: aside;
+  min-width: 250px;
+}
+
+.content {
+  background-color: lightgray;
+  border: 2px solid black;
+  text-align: center;
+}
+.footer {
+  display: flex;
+  background-color: #141414;
+  width: 100%;
+  color: white;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  width: 200px;
+  padding: 10px;
+}
+.footer-buttom {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.footer-buttom a {
+  text-decoration: none;
+  color: white;
+}
