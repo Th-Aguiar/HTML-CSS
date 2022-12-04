@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #292929;
+  display: flex;
+  justify-content: space-between; /*Espaçar as BOXs*/
+  flex-wrap: wrap; /*Quebrar as BOXs quando bater o limite*/
+  padding: 15px; /*dar um espaço*/
+  align-items: center; /* Alinhar conteudo verticalmente */
+  gap: 15px; /* Espaçamento quanto estiver proximo ao batente */
+  width: 100%; /* medida de segurança para a cor da barra manter 100% do espaço */
+  min-height: 40px; /* altura minima, para nao diminuir */
+}
+
+#logo-header {
+  width: 200px; /* tamanho da logo */
+}
+
+.buttons-header {
+  /*Espaçamento dentro entre os botões  */
+  display: flex; /*Configurar para liberar o espaççamento  */
+  gap: 15px;
+}
+.nav-header {
+  font-size: 20px;
+  background-color: transparent; /*Retirar o fundo do botão  */
+  border: 2px solid transparent; /*Configurar para nao bugar quando configurtar o hover  */
+  color: white;
+  cursor: pointer; /* tipo de ponteiro quando estiver em cima da box */
+  transition: 0.7s; /*transição quando passar o mouse  */
+}
+.nav-header:hover {
+  border-bottom: 2px solid red;
+  color: red;
+}
+#main-tittle {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 10px;
+}
+#main-paragraph {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: center; /*Alinhar os conteudos horizontoalmente  */
+  grid-template-columns: 3fr 1fr; /*Determinar quanto espaço será disponibilizado nas colunas  */
+  grid-template-areas: "main-content sidebar-content"; /*Configuração do layout principal de conteuto  */
+  padding: 10px;
+  gap: 10px;
+  flex: 1 0 auto; /*Para Ocupar todo espaço disponivel em telo 1°Grow 2° Shrink 3° Basis  */
+}
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  grid-area: main-content;
+  padding: 10px;
+  justify-content: center;
+  gap: 15px;
+}
+
+.main-card {
+  width: 280px;
+  height: 380px;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.main-card:hover {
+  border: 2px solid black;
+  transition: 0.5s;
+}
+.card-mainImage {
+  width: 100%; /*Ocupar toda a largura e mater responsividade*/
+  height: 180px;
+  border-radius: 15px;
+}
+.card-tittle {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+}
+
+.card-paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  text-align: center;
+}
+
+.sidebar-content {
+  background-color: #292929;
+  grid-area: sidebar-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 20px;
+  min-width: 300px;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-sidebar {
+  width: 75%;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.card-sidebar:hover {
+  border: 2px solid white;
+  transition: 0.5s;
+}
+
+.card-sideImage {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.footer {
+  display: flex;
+  background-color: #292929;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px;
+  width: 100%;
+  gap: 15px;
+  min-height: 40px;
+  align-items: center;
+  padding: 15px;
+}
+
+#logo-footer {
+  width: 200px;
+}
+#anchor-footer {
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+#anchor-footer:hover {
+  text-decoration: underline;
+  color: red;
+  transition: 0.8s;
+}
+
+/*Responsividade*/
+
+@media (max-width: 630px) {
+  /*Quando chegar em 630px ele tomara essa formação*/
+  .grid-container {
+    grid-template-areas:
+      "main-content"
+      "sidebar-content";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sidebar-content {
+    min-width: auto;
+  }
+}
+
+/*Alinhar os cabeçalhos*/
+@media (max-width: 465px) {
+  .header {
+    justify-content: center;
+  }
+
+  .footer {
+    justify-content: center;
+  }
+}
