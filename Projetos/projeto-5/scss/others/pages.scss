@@ -1,11 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  color: $terceira-color;
+  color: $letter-color;
 }
 
 body {
-  background-image: url(../../images/backgroundLp.png);
+  background-image: url(../images/backgroundLp.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -13,7 +13,7 @@ body {
 .container1 {
   width: 450px;
   height: auto;
-  background-color: #292929;
+  background-color: $background-color;
 }
 .img-top {
   width: 230px;
@@ -27,10 +27,10 @@ body {
   margin-bottom: -30px;
 }
 .btn.enviar {
-  background-color: $primary-color;
+  background-color: $btn-color;
 
   &hover {
-    color: $secondary-color;
+    color: $letter-btn-color;
   }
 }
 @media (max-width: 480px) {
