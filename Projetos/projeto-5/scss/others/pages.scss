@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: $terceira-color;
+}
+
+body {
+  background-image: url(../../images/backgroundLp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+.container1 {
+  width: 450px;
+  height: auto;
+  background-color: #292929;
+}
+.img-top {
+  width: 230px;
+}
+.paragraph {
+  padding-top: 3px;
+  padding-bottom: 2px;
+}
+.footer {
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+.btn.enviar {
+  background-color: $primary-color;
+
+  &hover {
+    color: $secondary-color;
+  }
+}
+@media (max-width: 480px) {
+  .container1 {
+    width: auto;
+  }
+}
