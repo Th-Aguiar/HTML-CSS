@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.ctn-img1 {
+  background-image: url(../../images/home/01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.div-text-img1 {
+  margin-top: 300px;
+}
+
+.header {
+  font-size: 15px;
+  font-weight: bold;
+}
+.header #header-logo {
+  width: 300px;
+  height: auto;
+}
+
+#arrow-gif {
+  width: 120px;
+  height: auto;
+}
+
+.ctn-img2 {
+  background-image: url(../../images/home/03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=style.css.map */
