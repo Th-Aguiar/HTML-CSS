@@ -38,6 +38,17 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.animation-content2 {
+  color: $paragraph-color;
+  margin-top: 255px;
+  &hover {
+    background-color: $paragraph-color;
+    color: $paragraph-hover;
+    font-weight: bold;
+  }
+}
+
 @media (max-width: 420px) {
   #nav-text {
     justify-content: center;

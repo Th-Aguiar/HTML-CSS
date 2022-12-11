@@ -43,6 +43,16 @@
   background-position: center;
 }
 
+.animation-content2 {
+  color: white;
+  margin-top: 255px;
+}
+.animation-content2hover {
+  background-color: white;
+  color: #000000;
+  font-weight: bold;
+}
+
 @media (max-width: 420px) {
   #nav-text {
     justify-content: center;
