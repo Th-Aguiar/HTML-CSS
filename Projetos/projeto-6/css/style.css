@@ -35,4 +35,22 @@
   height: auto;
 }
 
+.container02 {
+  background-image: url(../images/home/03.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 420px) {
+  #nav-text {
+    justify-content: center;
+    gap: 15px;
+  }
+  #nav-text button {
+    background-color: rgba(163, 161, 161, 0.3411764706);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
