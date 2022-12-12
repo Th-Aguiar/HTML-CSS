@@ -17,3 +17,5 @@ Obrigado pela Visita. <br>
 <a href='https://aguiarziin.github.io/HTML-CSS/Projetos/projeto-4/index.html'> Meu 4° Projeto - 04/12/2022 (Treino de Conceitos estudados: Responsividade, Grid, FlexBox, Organização do Código, )</a>
 
 <a href='https://aguiarziin.github.io/HTML-CSS/Projetos/projeto-5/index.html'> Meu 5° Projeto - 09/12/2022 (Treino de Conceitos e códigos estudados: Responsividade, Grid, BootStrap, SASS )</a>
+
+<a href='https://aguiarziin.github.io/HTML-CSS/Projetos/projeto-6/index.html'> Meu 6° Projeto - 11/12/2022 (Treino de Conceitos e códigos estudados: Responsividade, Grid, BootStrap, SASS, Biblioteca, Organização de Código )</a>
