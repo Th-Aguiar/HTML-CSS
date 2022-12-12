@@ -1,14 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-.container01 {
-  background-image: url(../images/home/01.jpg);
-  min-height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  font-family: "Roboto Slab", serif, sans-serif;
 }
 
 #logo-header {
@@ -17,6 +10,22 @@
 #nav-text {
   font-size: 18px;
   font-weight: bold;
+}
+.container01 {
+  background-image: url(../images/home/01.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header-content {
+  font-size: 47px;
+  font-weight: bold;
+  text-shadow: #0000009c 0px 3px 2px;
+}
+.text-content {
+  font-size: 40px;
+  text-shadow: #0000009c 0px 3px 2px;
 }
 .animation-content {
   color: $paragraph-color;
@@ -41,14 +50,36 @@
 
 .animation-content2 {
   color: $paragraph-color;
-  margin-top: 255px;
+  margin-top: 230px;
   &hover {
     background-color: $paragraph-color;
     color: $paragraph-hover;
     font-weight: bold;
   }
 }
-
+.container03 {
+  background-image: url(../images/home/02.gif);
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container04 {
+  background-image: url(../images/home/04.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.animation-content3 {
+  color: $paragraph-color;
+  padding-top: 255px;
+  &hover {
+    background-color: $paragraph-color;
+    color: $paragraph-hover;
+    font-weight: bold;
+  }
+}
 @media (max-width: 420px) {
   #nav-text {
     justify-content: center;
@@ -57,5 +88,10 @@
     button {
       background-color: $hamburguer-color;
     }
+  }
+}
+
+@media (max-width: 320px) {
+  * {
   }
 }
