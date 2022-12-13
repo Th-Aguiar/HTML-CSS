@@ -168,4 +168,15 @@
   font-weight: bold;
 }
 
+.content-falcon {
+  padding: 180px;
+  padding-right: 400px;
+  margin-left: -25px;
+}
+
+.text-falcon9 {
+  font-size: 24px;
+  line-height: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
