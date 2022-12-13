@@ -1,6 +1,12 @@
-@import "./others/colors.scss";
+@import "./communElements/variables.scss";
 
-// Font - Roboto Slab: font-family: 'Roboto Slab', serif;
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+// font-family: 'Roboto Slab', serif;
 
-@import "./others/pages.scss";
+@import "./communElements/communElement.scss";
+
+@import "./pages/home.scss";
+
+@import "./pages/falcon9.scss";
+
+@import "./pages/humanspace.scss";

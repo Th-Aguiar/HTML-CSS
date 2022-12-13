@@ -4,144 +4,88 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SpaceX -HOME</title>
-    <!-- CSS ONLY -->
-    <link rel="stylesheet" href="./css/style.css" />
-    <!-- CSS BOOTSTRAP -->
+    <!-- BootStrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <!-- CSS AOS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- AOS LIB -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <title>OneBit X - Home</title>
   </head>
   <body>
     <!-- First Content -->
-    <div class="container-fluid container01">
+    <div class="container-fluid container00 container01">
+      <!-- Header content -->
       <div class="container">
         <header class="header">
-          <nav class="navbar navbar-expand-lg navbar-dark bg-trasnparent pt-4">
-            <div class="container-fluid" id="nav-text">
-              <img
-                src="./images/logo-obc-2021-darkbg.png"
-                alt="logo-obc"
-                class="img-fluid"
-                id="logo-header"
-              />
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
+          <nav class="navbar navbar-expand-lg bg-transparent navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/index.html"><img src="./images/logo-obc-2021-darkbg.png" alt="logo-obc" class="img-fluid" id="logo-header" ></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse px-3" id="navbarNav">
+              <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
-                      >FALCON 9</a
-                    >
+                    <a class="nav-link active" aria-current="page" href="#" class="btn-header">Falcon 9</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
-                      >HUMAN SPACE FLIGHT</a
-                    >
+                    <a class="nav-link active" aria-current="page" href="#" class="btn-header">Human Space</a>
                   </li>
                 </ul>
-              </div>
-            </div>
-          </nav>
         </header>
-        <!-- text animation -->
-        <div class="container animation-content">
-          <div data-aos="fade-up" data-aos-duration="1500">
-            <h1 class="header-content">Lançamento a Caminho</h1>
-            <p class="text-content">MISSÃO EQUIPE-3</p>
-            <button type="button" class="btn btn-outline-light p-3 mt-5">
-              SAIBA MAIS
-            </button>
-          </div>
-        </div>
-        <div
-          class="container mt-5 text-center"
-          data-aos="fade-up"
-          data-aos-duration="1500"
-        >
-          <img
-            src="./images/home/arrowDown.gif"
-            alt="arrow-down"
-            class="img-fluid arrow-down"
-          />
-        </div>
+      </div>
+      <!-- Box Text -->
+      <div class="container text-content">
+        <h1 class="content-header">LANÇAMENTO A CAMINHO</h1>
+        <P class="text-content">MISSÃO EQUIPE-3</P>
+        <button type="button" class="btn btn-outline-light" id="btn-known">SAIBA MAIS</button>
+      </div>
+      <!-- Arrow -->
+      <div class="container text-center">
+        <img src="./images/home/arrowDown.gif" alt="arrowDown" class="arrown-down">
       </div>
     </div>
     <!-- Second Content -->
-    <div class="container-fluid container02">
-      <div class="container pt-3">
-        <div
-          data-aos="fade-up-right"
-          data-aos-duration="1500"
-          class="container pt-3 animation-content2"
-        >
-          <h1 class="header-content">MISSÃO CONCLUÍDA</h1>
-          <p class="text-content">MISSÃO EQUIPE-2</p>
-          <p class="text-content">RETORNOU PARA A TERRA</p>
-          <button type="button" class="btn btn-outline-light p-3 mt-5">
-            SAIBA MAIS
-          </button>
-        </div>
+    <div class="container-fluid container00 container02">
+      <div class="container text-content">
+        <h1 class="content-header">MISSÃO CONCLUÍDA</h1>
+        <P class="text-content">MISSÃO EQUIPE-2 RETORNOU PARA A TERRA</P>
+        <button type="button" class="btn btn-outline-light" id="btn-known">SAIBA MAIS</button>
       </div>
     </div>
     <!-- Thirth Content -->
-    <div class="container-fluid container03">
-      <div class="container">
-        <div
-          class="animation-content3"
-          data-aos="fade-up"
-          data-aos-duration="1500"
-        >
-          <h1 class="header-content">MISSÃO CONCLUÍDA</h1>
-          <p class="text-content">DRAGON RETORNOU PARA A TERRA</p>
-          <button type="button" class="btn btn-outline-light p-3 mt-5">
-            SAIBA MAIS
-          </button>
-        </div>
+    <div class="container-fluid container00 container03">
+      <div class="container text-content">
+        <h1 class="content-header">MISSÃO CONCLUÍDA</h1>
+        <P class="text-content">DRAGON RETORNOU PARA A TERRA</P>
+        <button type="button" class="btn btn-outline-light" id="btn-known">SAIBA MAIS</button>
       </div>
     </div>
-    <!-- Fourthy Content -->
-    <div class="container-fluid container04">
-      <div class="container">
-        <div
-          class="animation-content3"
-          data-aos="fade-down-right"
-          data-aos-duration="1500"
-        >
-          <h1 class="header-content">
-            STARSHIP POUSA ASTRONAUTAS DA NASA NA LUA
-          </h1>
-
-          <button type="button" class="btn btn-outline-light p-3 mt-5">
-            SAIBA MAIS
-          </button>
-        </div>
+    <!-- Forthy Content -->
+    <div class="container-fluid container00 container04">
+      <div class="container text-content">
+        <h1 class="content-header">STARSHIP POUSA ASTRONAUTAS DA NASA NA LUA</h1>
+        <button type="button" class="btn btn-outline-light" id="btn-known">SAIBA MAIS</button>
       </div>
     </div>
-    <!-- JavaScript BOOTSTRAP -->
+    <footer class="container-fluid footer">
+      <span class="copy-obc">Thiago Aguiar &copy;2022</span>
+      <a href="https://www.instagram.com/th.aguiiar/" target="_blank" rel="external" class="anchor-footer">Instagram</a>
+      <a href="https://github.com/Aguiarziin" target="_blank" rel="external" class="anchor-footer">Git Hub</a>
+    </footer>
+    <!-- BootStrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
-    <!-- JS AOS -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+    <!-- AOS LIB JS-->
   </body>
 </html>

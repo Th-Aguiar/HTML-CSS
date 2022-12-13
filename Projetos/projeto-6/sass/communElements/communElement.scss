@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+  color: white;
+}
+.header {
+  font-size: 17px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+#logo-header {
+  width: 280px;
+  height: auto;
+  margin-left: -15px;
+  margin-right: 20px;
+}
+
+.container00 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
