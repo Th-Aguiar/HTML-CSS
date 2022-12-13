@@ -1,0 +1,44 @@
+.container00 {
+  &.container05 {
+    background-image: url(../images/falcon9/01.jpg);
+  }
+  &.container06 {
+    background-image: url(../images/falcon9/02.jpg);
+  }
+}
+
+.falcon9-text {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  padding-top: 280px;
+  width: 750px;
+}
+
+.title-falcon9 {
+  font-size: 90px;
+  font-weight: bold;
+}
+
+.subTitle-falcon9 {
+  font-size: 20px;
+}
+
+.numbers {
+  background-color: black;
+  min-height: 25vh;
+  display: flex;
+  justify-content: center;
+}
+.text-numbers {
+  display: flex;
+  align-items: center;
+  gap: 170px;
+  padding-top: 80px;
+}
+
+.number-header {
+  font-size: 120px;
+  font-weight: bold;
+}
