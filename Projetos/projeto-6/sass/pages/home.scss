@@ -1,18 +1,50 @@
-.container01 {
-  background-image: url(../../images/home/01.jpg);
-}
-.container02 {
-  background-image: url(../../images/home/03.jpg);
-}
-.container03 {
-  background-image: url(../../images/home/02.gif);
-}
-.container04 {
-  background-image: url(../../images/home/04.jpg);
+// ESSE PROCEDIMENTO É DE HERANÇA DO SASS
+// PARA HERDAR AS CONFIG. DO CONT00 E DEPOIS COLOCAR AS IMG
+.container00 {
+  &.container01 {
+    background-image: url(../../images/home/01.jpg);
+  }
+  &.container02 {
+    background-image: url(../../images/home/03.jpg);
+  }
+  &.container03 {
+    background-image: url(../../images/home/02.gif);
+  }
+  &.container04 {
+    background-image: url(../../images/home/04.jpg);
+  }
 }
 
+.text-content {
+  padding-top: 200px;
+}
+.content-header {
+  width: 450px;
+  text-shadow: black 2px 2px 2px;
+}
+.paragraph-content {
+  width: 650px;
+  text-shadow: black 2px 2px 2px;
+  font-size: 25px;
+}
 .arrown-down {
   display: inline-block;
-  width: 100px;
+  width: 160px;
   margin-top: 5px;
+}
+@media (max-width: 770px) {
+  .text-content {
+    padding-top: 120px;
+  }
+  .paragraph-content {
+    width: auto;
+    font-size: 18px;
+  }
+  .content-header {
+    width: auto;
+    font-size: 20px;
+  }
+  #logo-header {
+    width: 180px;
+  }
 }

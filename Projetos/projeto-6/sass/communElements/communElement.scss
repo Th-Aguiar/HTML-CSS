@@ -5,9 +5,16 @@
   color: white;
 }
 .header {
-  font-size: 17px;
+  font-size: 25px;
   font-weight: bold;
   padding-top: 10px;
+
+  #btn-header {
+    font-size: 15px;
+    &:hover {
+      color: $color-hover;
+    }
+  }
 }
 #logo-header {
   width: 280px;
@@ -21,4 +28,47 @@
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
+}
+#btn-known {
+  padding: 20px;
+  border: 3px solid white;
+  &:hover {
+    font-weight: bold;
+  }
+}
+
+.footer {
+  min-height: 10vh;
+  background-color: black;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      color: $color-hover;
+    }
+  }
+}
+
+#copy-obc {
+  color: $copy-color;
+}
+
+@media (max-width: 320px) {
+  .footer {
+    font-size: 11px;
+  }
+  #query-content {
+    justify-content: center;
+    align-items: center;
+  }
+  #logo-header {
+    margin: 0px;
+  }
 }
