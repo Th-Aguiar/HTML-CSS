@@ -75,16 +75,16 @@
   }
 }
 .container00.container01 {
-  background-image: url(../../images/home/01.jpg);
+  background-image: url(../images/home/01.jpg);
 }
 .container00.container02 {
-  background-image: url(../../images/home/03.jpg);
+  background-image: url(../images/home/03.jpg);
 }
 .container00.container03 {
-  background-image: url(../../images/home/02.gif);
+  background-image: url(../images/home/02.gif);
 }
 .container00.container04 {
-  background-image: url(../../images/home/04.jpg);
+  background-image: url(../images/home/04.jpg);
 }
 
 .text-content {
