@@ -183,4 +183,69 @@
   font-size: 18px;
 }
 
+.conteiner-description {
+  display: grid;
+  justify-content: left;
+  align-items: center;
+  margin-left: 5%;
+  height: 90vh;
+  width: 650px;
+}
+.conteiner-description .falcon-description {
+  font-size: 25px;
+  line-height: 50px;
+}
+
+#overPostion {
+  width: 600px;
+  margin-left: 10%;
+  padding-top: 15%;
+}
+
+.tittleOver {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.subTittleOver {
+  font-size: 20px;
+}
+
+.caroulselEdit img {
+  height: 100vh;
+}
+
+.img-description {
+  background-color: black;
+}
+
+.descriptionDownload {
+  height: 90vh;
+  background-color: black;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.descriptionDownload p {
+  font-size: 25px;
+}
+.descriptionDownload #anchor-description {
+  color: #8f8f8f;
+  text-decoration: none;
+}
+.descriptionDownload #anchor-description:hover {
+  color: #b9b9b9;
+}
+.descriptionDownload #anchor-btn {
+  color: white;
+  text-decoration: none;
+}
+.descriptionDownload #anchor-btn:hover {
+  color: black;
+}
+.descriptionDownload button {
+  border: 2px solid white;
+  margin-right: 13px;
+}
+
 /*# sourceMappingURL=style.css.map */
