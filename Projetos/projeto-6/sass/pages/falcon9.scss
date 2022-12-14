@@ -62,7 +62,7 @@
   height: 90vh;
   width: 650px;
   .falcon-description {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 50px;
   }
 }
@@ -102,15 +102,61 @@
       color: $color-hover;
     }
   }
-  #anchor-btn {
-    color: white;
-    text-decoration: none;
-    &:hover {
-      color: black;
-    }
-  }
+
   button {
     border: 2px solid white;
     margin-right: 13px;
+  }
+}
+
+@media (max-width: 620px) {
+  .tittle-falcon9 {
+    font-size: 80px;
+  }
+  .subTitle-falcon9 {
+    font-size: 15px;
+  }
+  .numbers {
+    h1 {
+      font-size: 50px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .conteiner-description {
+    margin-left: 2%;
+    width: auto;
+    .falcon-description {
+      font-size: 17px;
+      line-height: 40px;
+    }
+  }
+  #overPostion {
+    width: auto;
+    margin: auto;
+  }
+  .tittleOver {
+    font-size: 30px;
+  }
+  .subTittleOver {
+    font-size: 17px;
+  }
+  .descriptionDownload {
+    p {
+      font-size: 15px;
+    }
+    button {
+      margin-bottom: 10px;
+    }
+  }
+}
+@media (max-width: 440px) {
+  .tittle-falcon9 {
+    font-size: 50px;
+  }
+  #overPostion {
+    padding-top: 20%;
   }
 }

@@ -192,7 +192,7 @@
   width: 650px;
 }
 .conteiner-description .falcon-description {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 50px;
 }
 
@@ -236,16 +236,57 @@
 .descriptionDownload #anchor-description:hover {
   color: #b9b9b9;
 }
-.descriptionDownload #anchor-btn {
-  color: white;
-  text-decoration: none;
-}
-.descriptionDownload #anchor-btn:hover {
-  color: black;
-}
 .descriptionDownload button {
   border: 2px solid white;
   margin-right: 13px;
+}
+
+@media (max-width: 620px) {
+  .tittle-falcon9 {
+    font-size: 80px;
+  }
+  .subTitle-falcon9 {
+    font-size: 15px;
+  }
+  .numbers h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .numbers p {
+    font-size: 14px;
+  }
+  .conteiner-description {
+    margin-left: 2%;
+    width: auto;
+  }
+  .conteiner-description .falcon-description {
+    font-size: 17px;
+    line-height: 40px;
+  }
+  #overPostion {
+    width: auto;
+    margin: auto;
+  }
+  .tittleOver {
+    font-size: 30px;
+  }
+  .subTittleOver {
+    font-size: 17px;
+  }
+  .descriptionDownload p {
+    font-size: 15px;
+  }
+  .descriptionDownload button {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 440px) {
+  .tittle-falcon9 {
+    font-size: 50px;
+  }
+  #overPostion {
+    padding-top: 20%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
