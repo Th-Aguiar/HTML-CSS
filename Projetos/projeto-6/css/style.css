@@ -246,6 +246,7 @@
     font-size: 80px;
   }
   .subTitle-falcon9 {
+    text-align: center;
     font-size: 15px;
   }
   .numbers h1 {
@@ -284,9 +285,127 @@
   .tittle-falcon9 {
     font-size: 50px;
   }
+  .subTitle-falcon9 {
+    text-align: center;
+    font-size: 13px;
+  }
   #overPostion {
     padding-top: 20%;
   }
+  .conteiner-description {
+    width: auto;
+  }
+  .conteiner-description .falcon-description {
+    font-size: 18px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 320px) {
+  .tittle-falcon9 {
+    font-size: 50px;
+  }
+  .subTitle-falcon9 {
+    text-align: center;
+    font-size: 13px;
+  }
+  #overPostion {
+    padding-top: 20%;
+  }
+  .conteiner-description {
+    width: auto;
+  }
+  .conteiner-description .falcon-description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .carousel-width {
+    width: auto;
+    font-size: 12px;
+  }
+  .numbers h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .numbers p {
+    font-size: 10px;
+  }
+  #width-table {
+    width: auto;
+    font-size: 10px;
+  }
+  .subTittleOver {
+    font-size: 10px;
+  }
+}
+.container00.container08 {
+  background-image: url(../../images/humanFlight/01.jpg);
+}
+.container00.container09 {
+  background-image: url(../../images/humanFlight/02.jpg);
+}
+.container00.container10 {
+  background-image: url(../../images/humanFlight/03.jpg);
+}
+.container00.container11 {
+  background-image: url(../../images/humanFlight/04.jpg);
+}
+.container00.container12 {
+  background-image: url(../../images/humanFlight/05.jpg);
+}
+
+.textDesc-box {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.tittle-human {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.subTitle-human {
+  font-size: 20px;
+}
+
+.descBox-human {
+  background-color: black;
+  min-height: 20vh;
+  font-size: 20px;
+  text-align: center;
+  padding: 20% 0;
+}
+
+.text-containerHumanRigth {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  width: 300px;
+  margin-right: 0px;
+  padding-top: 200px;
+}
+.text-containerHumanRigth .paragraph-card {
+  font-weight: 200;
+}
+.text-containerHumanRigth .tittle-humanBox {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#btn-explore {
+  width: 150px;
+  padding: 15px;
+}
+
+.text-containerHumanLeft {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-left: 2%;
+  padding-top: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */

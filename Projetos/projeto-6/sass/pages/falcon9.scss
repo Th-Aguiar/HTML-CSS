@@ -114,6 +114,7 @@
     font-size: 80px;
   }
   .subTitle-falcon9 {
+    text-align: center;
     font-size: 15px;
   }
   .numbers {
@@ -156,7 +157,57 @@
   .tittle-falcon9 {
     font-size: 50px;
   }
+  .subTitle-falcon9 {
+    text-align: center;
+    font-size: 13px;
+  }
   #overPostion {
     padding-top: 20%;
+  }
+  .conteiner-description {
+    width: auto;
+    .falcon-description {
+      font-size: 18px;
+      line-height: 40px;
+    }
+  }
+}
+@media (max-width: 320px) {
+  .tittle-falcon9 {
+    font-size: 50px;
+  }
+  .subTitle-falcon9 {
+    text-align: center;
+    font-size: 13px;
+  }
+  #overPostion {
+    padding-top: 20%;
+  }
+  .conteiner-description {
+    width: auto;
+    .falcon-description {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  .carousel-width {
+    width: auto;
+    font-size: 12px;
+  }
+  .numbers {
+    h1 {
+      font-size: 30px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
+  #width-table {
+    width: auto;
+    font-size: 10px;
+  }
+  .subTittleOver {
+    font-size: 10px;
   }
 }
