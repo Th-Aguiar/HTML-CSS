@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <!-- AOS LIB -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- FAVICON -->
@@ -42,7 +43,7 @@
         </header>
       </div>
       <!-- Box Text -->
-      <div class="container text-content">
+      <div data-aos="fade-up" data-aos-duration="1500" class="container text-content">
         <h1 class="content-header">LANÇAMENTO A CAMINHO</h1>
         <P class="paragraph-content">MISSÃO EQUIPE-3</P>
         <button type="button" class="btn btn-outline-light" id="btn-known">SAIBA MAIS</button>
@@ -54,7 +55,7 @@
     </div>
     <!-- Second Content -->
     <div class="container-fluid container00 container02">
-      <div class="container text-content">
+      <div data-aos="fade-right" data-aos-duration="1500" class="container text-content">
         <h1 class="content-header">MISSÃO CONCLUÍDA</h1>
         <P class="paragraph-content">MISSÃO EQUIPE-2 RETORNOU PARA A TERRA</P>
         <button type="button" class="btn btn-outline-light" id="btn-known">SAIBA MAIS</button>
@@ -62,7 +63,7 @@
     </div>
     <!-- Third Content -->
     <div class="container-fluid container00 container03">
-      <div class="container text-content">
+      <div data-aos="fade-down" data-aos-duration="1500" class="container text-content">
         <h1 class="content-header">MISSÃO CONCLUÍDA</h1>
         <P class="paragraph-content">DRAGON RETORNOU PARA A TERRA</P>
         <button type="button" class="btn btn-outline-light" id="btn-known">SAIBA MAIS</button>
@@ -70,7 +71,7 @@
     </div>
     <!-- Fourth Content -->
     <div class="container-fluid container00 container04">
-      <div class="container text-content">
+      <div data-aos="fade-down-right" data-aos-duration="1500" class="container text-content">
         <h1 class="content-header">STARSHIP POUSA ASTRONAUTAS DA NASA NA LUA</h1>
         <button type="button" class="btn btn-outline-light" id="btn-known">SAIBA MAIS</button>
       </div>
@@ -87,5 +88,9 @@
       crossorigin="anonymous"
     ></script>
     <!-- AOS LIB JS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
