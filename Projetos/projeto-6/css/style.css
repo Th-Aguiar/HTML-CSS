@@ -40,6 +40,28 @@
   font-weight: bold;
 }
 
+.descriptionDownload {
+  height: 90vh;
+  background-color: black;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.descriptionDownload p {
+  font-size: 15px;
+}
+.descriptionDownload #anchor-description {
+  color: #8f8f8f;
+  text-decoration: none;
+}
+.descriptionDownload #anchor-description:hover {
+  color: #b9b9b9;
+}
+.descriptionDownload button {
+  border: 2px solid white;
+  margin-top: 10%;
+}
+
 .footer {
   min-height: 10vh;
   background-color: black;
@@ -227,28 +249,6 @@
   width: auto;
 }
 
-.descriptionDownload {
-  height: 90vh;
-  background-color: black;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-}
-.descriptionDownload p {
-  font-size: 15px;
-}
-.descriptionDownload #anchor-description {
-  color: #8f8f8f;
-  text-decoration: none;
-}
-.descriptionDownload #anchor-description:hover {
-  color: #b9b9b9;
-}
-.descriptionDownload button {
-  border: 2px solid white;
-  margin-top: 10%;
-}
-
 @media (min-width: 750px) {
   .conteiner-description {
     padding-top: 5%;
@@ -344,7 +344,8 @@
   display: flex;
   flex-direction: column;
   justify-content: right;
-  width: 300px;
+  width: 250px;
+  text-align: center;
   margin-right: 0px;
   padding-top: 200px;
 }
@@ -364,8 +365,9 @@
 .text-containerHumanLeft {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 250px;
   margin-left: 2%;
+  text-align: center;
   padding-top: 200px;
 }
 
@@ -373,10 +375,23 @@
   .text-containerHumanRigth {
     margin-right: 10%;
     padding-top: 300px;
+    width: 500px;
+    text-align: unset;
   }
   .text-containerHumanLeft {
     margin-left: 10%;
     padding-top: 300px;
+    width: 500px;
+    text-align: unset;
+  }
+  .descBox-human {
+    padding: 5% 0;
+  }
+  .tittle-human {
+    font-size: 80px;
+  }
+  .subTitle-human {
+    font-size: 30px;
   }
 }
 
