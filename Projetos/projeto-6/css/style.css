@@ -373,14 +373,14 @@
 
 @media (min-width: 1000px) {
   .text-containerHumanRigth {
-    margin-right: 10%;
-    padding-top: 300px;
+    margin-left: 55%;
+    padding-top: 15%;
     width: 500px;
     text-align: unset;
   }
   .text-containerHumanLeft {
-    margin-left: 10%;
-    padding-top: 300px;
+    margin-right: 55%;
+    padding-top: 15%;
     width: 500px;
     text-align: unset;
   }
