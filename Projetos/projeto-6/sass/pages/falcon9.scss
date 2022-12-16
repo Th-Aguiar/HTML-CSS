@@ -32,51 +32,56 @@
   min-height: 80vh;
 }
 .tittle-falcon9 {
-  font-size: 100px;
+  font-size: 50px;
   font-weight: bold;
   text-shadow: #0000006e 4px 2px 8px;
 }
 .subTitle-falcon9 {
-  font-size: 18px;
+  font-size: 15px;
+  text-align: center;
   text-shadow: #0000006e 4px 2px 8px;
 }
 .numbers {
   min-height: 40vh;
+  padding-top: 5%;
   background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   h1 {
-    font-size: 80px;
+    font-size: 50px;
     font-weight: bold;
   }
   p {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 .conteiner-description {
   display: grid;
+  padding-top: 10%;
   justify-content: left;
   align-items: center;
-  margin-left: 5%;
   height: 90vh;
-  width: 650px;
+  width: auto;
   .falcon-description {
-    font-size: 20px;
-    line-height: 50px;
+    font-size: 17px;
+    line-height: 40px;
   }
 }
 #overPostion {
-  width: 600px;
-  margin-left: 10%;
-  padding-top: 15%;
+  width: auto;
+  padding-top: 50%;
 }
 .tittleOver {
-  font-size: 50px;
+  font-size: 25px;
   font-weight: bold;
 }
 .subTittleOver {
-  font-size: 20px;
+  font-size: 14px;
+}
+#width-table {
+  width: auto;
+  font-size: 14px;
 }
 .caroulselEdit {
   img {
@@ -85,6 +90,8 @@
 }
 .img-description {
   background-color: black;
+  font-size: 10px;
+  width: auto;
 }
 .descriptionDownload {
   height: 90vh;
@@ -93,7 +100,7 @@
   justify-content: center;
   align-items: center;
   p {
-    font-size: 25px;
+    font-size: 15px;
   }
   #anchor-description {
     color: $copy-color;
@@ -105,109 +112,61 @@
 
   button {
     border: 2px solid white;
-    margin-right: 13px;
+    margin-top: 10%;
   }
 }
 
-@media (max-width: 620px) {
-  .tittle-falcon9 {
-    font-size: 80px;
-  }
-  .subTitle-falcon9 {
-    text-align: center;
-    font-size: 15px;
-  }
-  .numbers {
-    h1 {
-      font-size: 50px;
-      font-weight: bold;
-    }
-    p {
-      font-size: 14px;
-    }
-  }
+@media (min-width: 750px) {
   .conteiner-description {
+    padding-top: 5%;
     margin-left: 2%;
-    width: auto;
+    width: 450px;
     .falcon-description {
-      font-size: 17px;
-      line-height: 40px;
+      font-size: 20px;
+      line-height: 45px;
     }
-  }
-  #overPostion {
-    width: auto;
-    margin: auto;
-  }
-  .tittleOver {
-    font-size: 30px;
-  }
-  .subTittleOver {
-    font-size: 17px;
-  }
-  .descriptionDownload {
-    p {
-      font-size: 15px;
-    }
-    button {
-      margin-bottom: 10px;
-    }
-  }
-}
-@media (max-width: 440px) {
-  .tittle-falcon9 {
-    font-size: 50px;
-  }
-  .subTitle-falcon9 {
-    text-align: center;
-    font-size: 13px;
-  }
-  #overPostion {
-    padding-top: 20%;
-  }
-  .conteiner-description {
-    width: auto;
-    .falcon-description {
-      font-size: 18px;
-      line-height: 40px;
-    }
-  }
-}
-@media (max-width: 320px) {
-  .tittle-falcon9 {
-    font-size: 50px;
-  }
-  .subTitle-falcon9 {
-    text-align: center;
-    font-size: 13px;
-  }
-  #overPostion {
-    padding-top: 20%;
-  }
-  .conteiner-description {
-    width: auto;
-    .falcon-description {
-      font-size: 14px;
-      line-height: 20px;
-    }
-  }
-  .carousel-width {
-    width: auto;
-    font-size: 12px;
   }
   .numbers {
     h1 {
-      font-size: 30px;
+      font-size: 80px;
       font-weight: bold;
     }
     p {
-      font-size: 10px;
+      font-size: 18px;
     }
+  }
+  #overPostion {
+    padding-top: 15%;
+    margin-left: 5%;
   }
   #width-table {
-    width: auto;
-    font-size: 10px;
+    width: 450px;
+    font-size: 17px;
   }
-  .subTittleOver {
+  .img-description {
+    background-color: black;
     font-size: 10px;
+    width: auto;
+  }
+  .descriptionDownload {
+    button {
+      margin-right: 15px;
+    }
+  }
+  .img-description {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1000px) {
+  #overPostion {
+    width: 550px;
+    padding-top: 15%;
+    margin-left: 15%;
+  }
+  .conteiner-description {
+    margin-left: 15%;
+    width: 650px;
+    padding-top: 2%;
   }
 }
